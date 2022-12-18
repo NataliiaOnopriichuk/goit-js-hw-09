@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #fafafa;
+  color: #212121;
+  line-height: 1.5;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+.timer {
+
+  display: flex;
+
+  gap: 25px;
+}
+
+.field {
+  display: flex;
+align-items: center;
+flex-direction: column;
+line-height: 1.2;
+}
+
+.value {
+  font-size: 70px;
+  font-family: Oswald;
+  font-weight: 500;
+}
+
+.label{
+  text-transform: uppercase;
+  
+}
+/* 
+.flatpickr-input {
+position: relative;
+left: 50%;
+top: 50%;
+transform: translate(-50%,-50%);
+} */
